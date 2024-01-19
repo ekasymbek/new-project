@@ -3,6 +3,11 @@ console.log(array);
 console.log(array.length);
 const array2 = [];
 function showItems(arr) {
-    arr.forEach(item => console.log(item))
+  arr.forEach((item) => console.log(item));
 }
 showItems(array);
+
+const obj = {
+  name: "Gunnar",
+  age: 35,
+};
